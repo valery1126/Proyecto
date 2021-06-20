@@ -33,6 +33,11 @@ public class FrontEnd extends JFrame {
         JComboBox cbMarca = new JComboBox();
 
         cbMarca.addItem("Toyota");
+        cbMarca.addItem("Nissan");
+        cbMarca.addItem("Mazda");
+        cbMarca.addItem("Suzuki");
+        cbMarca.addItem("Honda");
+        cbMarca.addItem("Jeep");
 
         this.agregarComponente(lblMarca);
         this.agregarComponente(cbMarca);
