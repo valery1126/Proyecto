@@ -1,10 +1,13 @@
 package com.ucreativa;
 
 
+import com.ucreativa.ui.FrontEnd;
+
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hola");
+        FrontEnd fe = new FrontEnd("Catálogo de Autos");
+        fe.build();
 
     }
 
